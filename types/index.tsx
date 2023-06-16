@@ -16,7 +16,7 @@ export type CourseData = {
       };
     },
     'wp:term': {
-      '0': {
+      '1': {
         name: string;
         slug: string;
       }[];

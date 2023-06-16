@@ -17,7 +17,7 @@ export default function Card({ scroll, data }: Props) {
             <Link
                 href={{
                     pathname: '/[country]/[region]/[slug]',
-                    query: { country: `${data._embedded['wp:term'][0][1].slug}`, region: `${data._embedded['wp:term'][0][0].slug}`, slug: data.slug }
+                    query: { country: `${data._embedded['wp:term'][1][1].slug}`, region: `${data._embedded['wp:term'][1][0].slug}`, slug: data.slug }
                 }}
             >
                 <div
